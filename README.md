@@ -40,3 +40,22 @@ $params = [
 ];
 $response = $client->langdetect()->detect($params);
 ```
+
+The ```$response``` holds an array which looks like:
+
+```
+Array
+(
+    [profile] => /langdetect/
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [language] => en
+                    [probability] => 0.9999959428847
+                )
+
+        )
+
+)
+```
