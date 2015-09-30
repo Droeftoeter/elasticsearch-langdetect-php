@@ -1,0 +1,23 @@
+{
+  "name": "sjaakmoes/elasticsearch-langdetect-php",
+  "type": "library",
+  "description": "Langdetect namespace for Elasticsearch-PHP",
+  "keywords": ["search", "client", "elasticsearch", "languagedetect", "langdetect", "language"],
+  "homepage": "https://github.com/Sjaakmoes/elasticsearch-langdetect-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Freek Post",
+      "email": "freek@kobalt.blue"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "elasticsearch/elasticsearch": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Langdetect\\": "src/Langdetect/"
+    }
+  }
+}
